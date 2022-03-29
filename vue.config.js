@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'productions'
+  publicPath: process.env.NODE_ENV === 'production'
     ? '/business-lines__initial/'
     : '/',
 };
